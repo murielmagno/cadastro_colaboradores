@@ -1,11 +1,11 @@
-package br.com.mobicare.cadastro_colaboradores.controller;
+package br.com.murielmagno.cadastro_colaboradores.controller;
 
-import br.com.mobicare.cadastro_colaboradores.controller.dto.FuncionariosDTO;
-import br.com.mobicare.cadastro_colaboradores.controller.dto.InfoFuncionarioDTO;
-import br.com.mobicare.cadastro_colaboradores.controller.repository.Funcionarios;
-import br.com.mobicare.cadastro_colaboradores.exception.RegraCadastroException;
-import br.com.mobicare.cadastro_colaboradores.model.entity.Funcionario;
-import br.com.mobicare.cadastro_colaboradores.service.FuncionarioService;
+import br.com.murielmagno.cadastro_colaboradores.dto.FuncionariosDTO;
+import br.com.murielmagno.cadastro_colaboradores.dto.InfoFuncionarioDTO;
+import br.com.murielmagno.cadastro_colaboradores.model.repository.Funcionarios;
+import br.com.murielmagno.cadastro_colaboradores.exception.RegraCadastroException;
+import br.com.murielmagno.cadastro_colaboradores.model.entity.Funcionario;
+import br.com.murielmagno.cadastro_colaboradores.service.FuncionarioService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -34,14 +34,6 @@ public class FuncionarioController {
                                 HttpStatus.NOT_FOUND, "Funcionario não encontrado."));
     }
 
-    @GetMapping("/setor/{id}")
-    public String findByIdFetchSetor(@PathVariable Integer id){
-        return service.consultarFuncionarioSetor(id).map(funcionario -> funcionario
-                .getPessoa().getNome())
-                .orElseThrow(() ->
-                        new RegraCadastroException(
-                                HttpStatus.NOT_FOUND, "Funcionario não encontrado."));
-    }
 
     private InfoFuncionarioDTO transformar(Funcionario funcionario) {
         return InfoFuncionarioDTO.builder().codigo(funcionario.getId())

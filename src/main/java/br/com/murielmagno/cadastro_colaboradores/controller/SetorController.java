@@ -1,8 +1,8 @@
-package br.com.mobicare.cadastro_colaboradores.controller;
+package br.com.murielmagno.cadastro_colaboradores.controller;
 
-import br.com.mobicare.cadastro_colaboradores.controller.repository.Setores;
-import br.com.mobicare.cadastro_colaboradores.exception.RegraCadastroException;
-import br.com.mobicare.cadastro_colaboradores.model.entity.Setor;
+import br.com.murielmagno.cadastro_colaboradores.model.repository.Setores;
+import br.com.murielmagno.cadastro_colaboradores.exception.RegraCadastroException;
+import br.com.murielmagno.cadastro_colaboradores.model.entity.Setor;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;

@@ -1,4 +1,4 @@
-package br.com.mobicare.cadastro_colaboradores;
+package br.com.murielmagno.cadastro_colaboradores;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

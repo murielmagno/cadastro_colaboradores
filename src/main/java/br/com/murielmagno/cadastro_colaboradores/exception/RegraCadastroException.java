@@ -1,4 +1,4 @@
-package br.com.mobicare.cadastro_colaboradores.exception;
+package br.com.murielmagno.cadastro_colaboradores.exception;
 
 import org.springframework.http.HttpStatus;
 

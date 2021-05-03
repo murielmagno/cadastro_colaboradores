@@ -1,7 +1,7 @@
-package br.com.mobicare.cadastro_colaboradores.controller.repository;
+package br.com.murielmagno.cadastro_colaboradores.model.repository;
 
+import br.com.murielmagno.cadastro_colaboradores.model.entity.Pessoa;
 import org.springframework.data.jpa.repository.JpaRepository;
-import br.com.mobicare.cadastro_colaboradores.model.entity.Pessoa;
 
 import java.util.List;
 

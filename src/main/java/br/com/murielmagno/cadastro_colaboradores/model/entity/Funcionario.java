@@ -1,4 +1,4 @@
-package br.com.mobicare.cadastro_colaboradores.model.entity;
+package br.com.murielmagno.cadastro_colaboradores.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,8 +6,6 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.List;
-import java.util.Set;
 
 @Data
 @NoArgsConstructor

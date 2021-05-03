@@ -1,4 +1,4 @@
-package br.com.mobicare.cadastro_colaboradores.model.entity;
+package br.com.murielmagno.cadastro_colaboradores.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;

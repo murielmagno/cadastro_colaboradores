@@ -1,8 +1,8 @@
-package br.com.mobicare.cadastro_colaboradores.controller;
+package br.com.murielmagno.cadastro_colaboradores.controller;
 
-import br.com.mobicare.cadastro_colaboradores.controller.repository.Pessoas;
-import br.com.mobicare.cadastro_colaboradores.exception.RegraCadastroException;
-import br.com.mobicare.cadastro_colaboradores.model.entity.Pessoa;
+import br.com.murielmagno.cadastro_colaboradores.model.repository.Pessoas;
+import br.com.murielmagno.cadastro_colaboradores.exception.RegraCadastroException;
+import br.com.murielmagno.cadastro_colaboradores.model.entity.Pessoa;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

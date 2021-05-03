@@ -1,4 +1,4 @@
-package br.com.mobicare.cadastro_colaboradores.model.entity;
+package br.com.murielmagno.cadastro_colaboradores.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

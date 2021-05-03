@@ -1,4 +1,4 @@
-package br.com.mobicare.cadastro_colaboradores.controller;
+package br.com.murielmagno.cadastro_colaboradores.controller;
 
 import java.util.Arrays;
 import java.util.List;

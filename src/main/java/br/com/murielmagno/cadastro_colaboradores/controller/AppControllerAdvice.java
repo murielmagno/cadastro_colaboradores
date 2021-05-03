@@ -1,6 +1,6 @@
-package br.com.mobicare.cadastro_colaboradores.controller;
+package br.com.murielmagno.cadastro_colaboradores.controller;
 
-import br.com.mobicare.cadastro_colaboradores.exception.RegraCadastroException;
+import br.com.murielmagno.cadastro_colaboradores.exception.RegraCadastroException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;

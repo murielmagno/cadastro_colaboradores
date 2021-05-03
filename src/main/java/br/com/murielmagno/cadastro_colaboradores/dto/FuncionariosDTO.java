@@ -1,4 +1,4 @@
-package br.com.mobicare.cadastro_colaboradores.controller.dto;
+package br.com.murielmagno.cadastro_colaboradores.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
